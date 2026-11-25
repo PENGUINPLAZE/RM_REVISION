@@ -696,7 +696,10 @@ input:focus,select:focus,textarea:focus{outline:0;border-color:var(--brand);box-
 .modal .box{border-radius:24px!important}
 .hackstrip .hkb{border-radius:14px}
 .ava>span{font-family:Geist}
-@media(min-width:901px){.hero2{grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr)}}.hero2 h1{font-size:clamp(2.2rem,4.3vw,3.6rem)}
+@media(min-width:901px){.hero2{grid-template-columns:1fr}.hero2 .h2-win{max-width:620px}}
+@media(min-width:1380px){.hero2{grid-template-columns:minmax(0,1.15fr) minmax(380px,.85fr)}.hero2 .h2-win{max-width:none}}
+.hero2 h1{font-size:clamp(2.2rem,3.9vw,3.5rem)!important;max-width:18ch}.wl-t{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#main{max-width:1320px;width:100%;margin-inline:auto;box-sizing:border-box}.hero2 h1{font-size:clamp(2.2rem,4.3vw,3.6rem)}
 .lt-k{border:1px solid currentColor;border-radius:999px;padding:1px 8px;font-size:11.5px!important;opacity:.9}
 @media(max-width:600px){.h2-act{flex-direction:column}.h2-act .btn{width:100%;text-align:center}.h2-pill{font-size:12px}}
 
@@ -726,6 +729,7 @@ body:has(#lbar) #privbar{bottom:96px}
 .v3name{background:rgba(255,255,255,.85)!important;border:1px solid var(--line)!important;color:var(--ink)!important;font-family:Geist!important;font-weight:560!important;letter-spacing:0!important;text-transform:none!important;font-size:13px!important;backdrop-filter:blur(8px)}
 .v3btns button{background:rgba(255,255,255,.85)!important;color:var(--ink)!important;border:1px solid var(--line)!important;border-radius:999px!important;font-family:Geist!important}
 .logo .mk{display:inline-grid;place-items:center;background:#111317!important;padding:0}.logo .mk svg{width:28px;height:28px}
+.phead h1{font-size:clamp(2rem,3.4vw,2.9rem)!important}
 </style>
 <script src="config.js"></script>
 </head>
